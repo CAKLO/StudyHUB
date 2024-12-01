@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta property="og:url" content="https://www.Caklo.com/">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="CaKlo">
+
+    <meta property="og:description" content="Disfruta de ver anime Online sin publicidad">
+    <!--=============== Scorllreveal ===============-->
+    <script src="/assets/js/scroll/scrollreveal.js"></script>
+
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/ghost-regular-24.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!--=============== CSS slider ===============-->
+    <link rel="stylesheet" href="./assets/css/slider.css">
+
+    <link rel="stylesheet" href="./assets/css/span-container.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== Lbs-js ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js" integrity="sha512-HNbo1d4BaJjXh+/e6q4enTyezg5wiXvY3p/9Vzb20NIvkJghZxhzaXeffbdJuuZSxFhJP87ORPadwmU9aN3wSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.map">
+    <!--=============== Lbs-js ===============-->
+
+    <!--=============== s3arch ===============-->
+    <link rel="stylesheet" href="./assets/css/search-new-css.css">
+    <script src="./assets/js/search/jquery.js"></script>
+    <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+    <!--=============== s3arch ===============-->
+    <title>CAkLO</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index-1.html" class="nav__logo">
+                <i class='bx bxs-ghost'></i> CAkLO
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index-1.html" class="nav__link color-wave">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link active-link color-wave">Tendencia</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./layouts/Image gallery with Search box/index.html" class="nav__link color-wave">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link color-wave">Sobre nosotros</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns btn__gallery">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-search-alt'></i>
+
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">Fundadores</h2>
+        <h2 class="cart__title-center h2h2">Para usar el buscador es necesario seleccionar la opción que se desplaza hacia bajo después de escribir un caracter que coincida de lo que esta buscando, de lo contrario no se cargará la búsqueda.</h2>
+
+        <!--=============== Buscador list css ===============-->
+
+
+        <link rel="stylesheet" href="./assets/css/search-new-css.css">
+        <script src="./assets/js/search/jquery.js"></script>
+        <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+
+        <section class="btn-buscar" id="icon-menu">
+            <form autocomplete="off">
+                <div>
+                    <input type="text" name="q" id="input-search" placeholder="¿Qué deseas buscar?">
+                </div>
+                <ul class="list"></ul>
+            </form>
+        </section>
+
+        <div class="content-search">
+            <div class="content-table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><a href="./videm.html">Blood-C</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Clannad</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Sword Art Online</a></td>
+
+                        </tr>
+
+                        <tr>
+                            <td><a href="./layouts/Animes/k-on.html">K-ON</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="/layouts/Animes/tokyo-renvengers.html">Tokyo Revengers</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Boku Dake Ga Inai Machi</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Boku no Hero Academy</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Tokyo Ghoul</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Moshuko Tensei</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Jujutsu Kaisen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Re:zero kara hajimeru isekai seikatsu</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Tensei shitara slime</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Chijou saikyou no daimaou</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Youjo senki</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Otome Game Sekia wo</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Isekai Maou to Shoukan</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Eromanga-Sensei</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Kaguya-Sama Love is War</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Shirayuki no himesama </a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Kokoro connect </a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Kaichou to maid</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#"> Koi to uso</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">mirai nikki </a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">One Puch Man</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Elfen lied</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <script src="./assets/js/search/search-new.js"></script>
+        <!--=============== Buscador list css ===============-->
+
+
+
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/Fundadores/" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Josua Lopez</h3>
+                    <span class="cart__price">Desarrollador, estudiante</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/Fundadores/navas.jpg" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Carlos Navas</h3>
+                    <span class="cart__price">Desarrollador, estudiante</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">2</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/Fundadores/testimonial-2.jpg" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Camila Salinas</h3>
+                    <span class="cart__price">Desarrollador, estudiante</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">3</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+
+            </article>
+
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/testimonial2.jpg" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Keren Pineda</h3>
+                    <span class="cart__price">Desarrollador, estudiante</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">4</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+
+            </article>
+
+
+
+
+
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">4 Fundadores</span>
+            <span class="cart__prices-total">2022</span>
+        </div>
+
+
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+
+
+        <!--==================== Triangle-Form-background ====================-->
+        <div class="container__background-triangle">
+            <div class="triangle triangle1"></div>
+            <div class="fimg" src="/assets/img/pngs-chibi/inosuke-removebg.png" alt=""></div>
+            <div class="triangle triangle2"></div>
+            <div class="fimg2" src="./assets/img/pngs-chibi/inosuke-removebg.png" alt=""></div>
+            <div class="triangle triangle3"></div>
+            <div class="fimg3" src="./assets/img/pngs-chibi/inosuke-removebg.png" alt=""></div>
+            <div class="triangle triangle4"></div>
+            <div class="fimg4" src="./assets/img/pngs-chibi/inosuke-removebg.png" alt=""></div>
+            <div class="triangle triangle5"></div>
+            <div class="fimg5" src="./assets/img/pngs-chibi/inosuke-removebg.png" alt=""></div>
+        </div>
+        <!--==================== Triangle-Form-background ====================-->
+
+
+        <link rel="stylesheet" href="./assets/css/wave.css">
+
+
+        <div class="container_all" id="container__all">
+            <div class="cover">
+
+                <div class="bg_color"></div>
+                <div class="wave w1"></div>
+                <div class="wave w2"></div>
+
+                <div class="container__cover">
+                    <div class="container__info">
+                        <h1 class="h1-right">CAKLO <br> Tendencias</h1>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+            <link rel="stylesheet" href="/assets/css/Squid.css">
+
+            <div class="contenedor">
+                <div class="contenido-principal">
+                    <img src="/assets/img/caklo-bg.jpeg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+                    <div class="contenido-principal__contenedor">
+                        <h1 class="contenido-principal__titulo">En este sección de la pagina decidimos mejor simplicar el contenido para que no este tan cargado de información</h1>
+                        <p class="contenido-principal__resumen">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a commodo orci. Nulla ipsum ante, auctor a odio id, bibendum accumsan mauris.
+                        </p>
+                        <p class="contenido-principal__resumen">
+                            Fusce malesuada mollis ante, at elementum mi maximus nec. Praesent volutpat, tortor sed condimentum sagittis, mi diam fringilla nibh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!--==================== Contenedor de las section cards ====================-->
+            <div class="section__p">
+                <div class="card-aside">
+
+                    <!--==================== cards ====================-->
+                    <div class="card">
+                        <div class="contentBx">
+                            <div class="content">
+                                <h2>Lo mas Nuevo<br><span>Noticias de la proxima temporada</span></h2>
+                                <div class="imgBx">
+                                    <img src="/assets/img/caklo-bg.jpeg">
+
+                                </div>
+                                <button>Hire Me</button>
+
+                                <div class="img-desp">
+                                    <img src="/assets/img/bloodc.jpg" alt="">
+
+                                </div>
+                                <p class="notice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quia quisquam ipsa, ab enim assumenda quae veritatis, exercitationem mollitia, dolorem officia accusantium. Quia laboriosam iustoa
+                                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quia quisquam ipsa, ab enim assumenda quae veritatis, exercitationem mollitia, dolorem officia accusantium. Quia laboriosam iusto sunt, beatae ullam
+                                    officiis et?
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="toggle">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <script>
+                        let card = document.querySelector('.card');
+                        let cardtoggle = document.querySelector('.toggle');
+                        cardtoggle.onclick = function() {
+                            card.classList.toggle('active');
+                        };
+                    </script>
+
+                </div>
+                <!--==================== cards ====================-->
+
+            </div>
+
+
+            <div class="body__page scroll-banner">
+
+                <div class="container__card-auto">
+
+                    <div class="card-auto c1">
+                        <div class="icon">
+                            <i class="fab fa-html5">Next year</i>
+                        </div>
+                        <div class="info__description">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit
+                                quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+
+                    <div class="card-auto c2">
+                        <div class="icon">
+                            <i class="fab fa-css3">Próximos</i>
+                        </div>
+                        <div class="info__description">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit
+                                quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+
+                    <div class="card-auto c3">
+                        <div class="icon">
+                            <i class="fab fa-js-square">Features</i>
+                        </div>
+                        <div class="info__description">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit
+                                quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="seccion-open">
+                <div class="container-new">
+                    <h1>Las noticias más nuevas</h1>
+                    <div class="tab">
+                        <input type="radio" name="acc" id="acc1">
+                        <label for="acc1">
+                          <h2>01</h2>
+                          <h3>Nuevas Temporadas :0</h3>
+                      </label>
+                        <div class="content__new">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia at exercitationem fuga laudantium commodi alias odio quibusdam praesentium earum impedit?</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" name="acc" id="acc2">
+                        <label for="acc2">
+                          <h2>02</h2>
+                          <h3>Ranquinks de la semana</h3>
+                      </label>
+                        <div class="content__new">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, nesciunt? Culpa nesciunt harum eum. Repellendus vitae nobis nemo ab quae maxime molestiae! Recusandae, quo porro necessitatibus perferendis molestias placeat
+                                repellendus assumenda. In tempora vel labore est. Quo quod, assumenda culpa quam perspiciatis ducimus eum debitis molestias est placeat mollitia ipsa.</p>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" name="acc" id="acc3">
+                        <label for="acc3">
+                          <h2>03</h2>
+                          <h3>Lo que se viene en 2023</h3>
+                      </label>
+                        <div class="content__new">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia at exercitationem fuga laudantium commodi alias odio quibusdam praesentium earum impedit?</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab">
+                        <input type="radio" name="acc" id="acc4">
+                        <label for="acc4">
+                          <h2>04</h2>
+                          <h3>Animes en moda</h3>
+                      </label>
+                        <div class="content__new">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="none"></div>
+
+
+            </ <script defer src="main.js"></script>
+
+            <div class="contenedor-span ">
+
+                <div class="contenedor-de-let ">
+                    <span class="spant " style="--l: '¡C'; ">¡C</span>
+                    <span class="spant " style="--l: 'a'; ">a</span>
+                    <span class="spant " style="--l: 'k'; ">k</span>
+                    <span class="spant " style="--l: 'L'; ">L</span>
+                    <span class="spant " style="--l: 'O!'; ">O!</span>
+
+
+                </div>
+            </div>
+
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section ">
+        <div class="footer__container container grid ">
+            <div class="footer__content ">
+                <h3 class="footer__title ">Our information</h3>
+
+                <ul class="footer__list ">
+                    <li>+505 xxxx-xxxx </li>
+                    <li>Managua, Nicaragua</li>
+                    <li>123-456-789</li>
+                </ul>
+            </div>
+            <div class="footer__content ">
+                <h3 class="footer__title ">About Us</h3>
+
+                <ul class="footer__links ">
+                    <li>
+                        <a href="# " class="footer__link ">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">About Us</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">Copy Right</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content ">
+                <h3 class="footer__title ">Product</h3>
+
+                <ul class="footer__links ">
+                    <li>
+                        <a href="# " class="footer__link ">Póster</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">Almohadas</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">FIgures</a>
+                    </li>
+                    <li>
+                        <a href="# " class="footer__link ">Accesories</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content ">
+                <h3 class="footer__title ">Social</h3>
+
+                <ul class="footer__social ">
+                    <a href="https://www.facebook.com/ " target="_blank " class="footer__social-link ">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/ " target="_blank " class="footer__social-link ">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/ " target="_blank " class="footer__social-link ">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy ">&#169; CAkLO. All rigths reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="# " class="scrollup " id="scroll-up ">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js "></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js "></script>
+
+    <script src="/assets/js/scroll/indexs.js"></script>
+</body>
+
+</html>

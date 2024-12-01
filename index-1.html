@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+  <meta property="og:url" content="https://www.Caklo.com/" />
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:title" content="StudyHub" />
+
+  <meta property="og:description" content="Disfruta de ver anime Online sin publicidad" />
+  <!--=============== Scorllreveal ===============-->
+  <script src="/assets/js/scroll/scrollreveal.js"></script>
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="./assets/img/ghost-regular-24.png" type="image/x-icon" />
+
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!--=============== CSS slider ===============-->
+  <link rel="stylesheet" href="./assets/css/slider.css" />
+
+  <link rel="stylesheet" href="./assets/css/span-container.css" />
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== Lbs-js ===============-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+    integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"
+    integrity="sha512-HNbo1d4BaJjXh+/e6q4enTyezg5wiXvY3p/9Vzb20NIvkJghZxhzaXeffbdJuuZSxFhJP87ORPadwmU9aN3wSA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
+    integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.map" />
+  <!--=============== Lbs-js ===============-->
+
+  <!--=============== s3arch ===============-->
+  <link rel="stylesheet" href="./assets/css/search-new-css.css" />
+  <script src="./assets/js/search/jquery.js"></script>
+  <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+  <!--=============== s3arch ===============-->
+  <title>Studyhub</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="./index.html" class="nav__logo">
+        <i class="bx bxs-ghost"></i> Studyhub
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index-1.html" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./tendencia.html" class="nav__link">Tendencia</a>
+          </li>
+          <li class="nav__item">
+            <a href="./gallery.html" class="nav__link">Gallery</a>
+          </li>
+          <li class="nav__item">
+            <a href="#new" class="nav__link">New</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__shop" id="cart-shop">
+          <i class="bx bx-search-alt"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="cart" id="cart">
+    <i class="bx bx-x cart__close" id="cart-close"></i>
+
+    <h2 class="cart__title-center">Buscar</h2>
+
+
+    <!--=============== Buscador list css ===============-->
+
+    <link rel="stylesheet" href="./assets/css/search-new-css.css" />
+    <script src="./assets/js/search/jquery.js"></script>
+    <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+
+    <section class="btn-buscar" id="icon-menu">
+      <form autocomplete="off">
+        <div>
+          <input type="text" name="q" id="input-search" placeholder="¿Qué deseas buscar?" />
+        </div>
+        <ul class="list"></ul>
+      </form>
+    </section>
+    <div class="content-search">
+      <div class="content-table">
+        <table id="table">
+          <thead>
+            <tr>
+              <td></td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><a href="./videoplayer.html">CSS</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="#">HTML</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="#">JavaScript</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="./layouts/Animes/k-on.html">PHP Nivel 2</a></td>
+            </tr>
+
+            <tr>
+              <td>
+                <a href="/layouts/Animes/tokyo-renvengers.html">Java</a>
+              </td>
+            </tr>
+
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <script src="./assets/js/search/search-new.js"></script>
+    <!--=============== Buscador list css ===============-->
+
+  </div>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== Triangle-Form-background ====================-->
+   
+    <!--==================== Triangle-Form-background ====================-->
+<br>
+    <!--==================== HOME ====================-->
+    <!--==================== HOME ====================-->
+    <section class="home" id="home" >
+      <div class="home__container container grid">
+        <div class="wrapper-slider">
+          <input type="radio" name="slide" id="one" checked />
+          <input type="radio" name="slide" id="two" />
+          <input type="radio" name="slide" id="three" />
+          <input type="radio" name="slide" id="four" />
+          <input type="radio" name="slide" id="five" />
+          <div class="img img-1">
+            <img src="./assets/img/img/hmtlcss.jpg" alt="" />
+          </div>
+          <div class="img img-2">
+            <img src="./assets/img/img/php.jpg" alt="" />
+          </div>
+          <div class="img img-3">
+            <img src="./assets/img/newImage/Los-6-mejores-cursos-gratuitos.jpg" alt="" />
+          </div>
+          <div class="img img-4">
+            <img src="./assets/img/img/html.avif" alt="" />
+          </div>
+          <div class="img img-5">
+            <img src="./assets/img/img/js.jpg" alt="" />
+          </div>
+          <div class="sliders">
+            <label for="one" class="one"></label>
+            <label for="two" class="two"></label>
+            <label for="three" class="three"></label>
+            <label for="four" class="four"></label>
+            <label for="five" class="five"></label>
+          </div>
+        </div>
+        <style>
+         
+          .wrapper-slider {
+            position: relative;
+            width: 100%;
+            height: 400px;
+          }
+          .wrapper-slider .img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        
+          }
+          .wrapper-slider .img img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            clip-path: circle(0% at 0% 100%);
+            transition: all 0.7s;    border-radius: 20px;
+          }
+          #one:checked ~ .img-1 img {
+            clip-path: circle(150% at 0% 100%);
+          }
+          #two:checked ~ .img-1 img,
+          #two:checked ~ .img-2 img {
+            clip-path: circle(150% at 0% 100%);
+          }
+          #three:checked ~ .img-1 img,
+          #three:checked ~ .img-2 img,
+          #three:checked ~ .img-3 img {
+            clip-path: circle(150% at 0% 100%);
+          }
+          #four:checked ~ .img-1 img,
+          #four:checked ~ .img-2 img,
+          #four:checked ~ .img-3 img,
+          #four:checked ~ .img-4 img {
+            clip-path: circle(150% at 0% 100%);
+          }
+          #five:checked ~ .img-1 img,
+          #five:checked ~ .img-2 img,
+          #five:checked ~ .img-3 img,
+          #five:checked ~ .img-4 img,
+          #five:checked ~ .img-5 img {
+            clip-path: circle(150% at 0% 100%);
+          }
+          .wrapper-slider .sliders {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+            display: flex;
+          }
+          .wrapper-slider .sliders label {
+            border: 2px solid rgb(142, 197, 252);
+            width: 13px;
+            height: 13px;
+            margin: 0 3px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+          }
+          #one:checked ~ .sliders label.one,
+          #two:checked ~ .sliders label.two,
+          #three:checked ~ .sliders label.three,
+          #four:checked ~ .sliders label.four,
+          #five:checked ~ .sliders label.five {
+            width: 35px;
+            border-radius: 14px;
+            background: rgb(142, 197, 252);
+          }
+          .sliders label:hover {
+            background: rgb(142, 197, 252);
+          }
+          input[type="radio"] {
+            display: none;
+          }
+        </style>
+        <script>
+          const one = document.getElementById("one");
+          const two = document.getElementById("two");
+          const three = document.getElementById("three");
+          const four = document.getElementById("four");
+          const five = document.getElementById("five");
+        
+          setInterval(() => {
+            if (one.checked) {
+              two.checked = true;
+            } else if (two.checked) {
+              three.checked = true;
+            } else if (three.checked) {
+              four.checked = true;
+            } else if (four.checked) {
+              five.checked = true;
+            } else if (five.checked) {
+              one.checked = true;
+            }
+          }, 5000);
+        </script>
+      </div>
+    </section>
+
+    <!--==================== HOME-END ====================-->
+<br>
+    <!--====================Slider-Auto====================-->
+    <link rel="stylesheet" href="./layouts/slider/css/flexslider.css" />
+    <link rel="stylesheet" href="./layouts/slider/css/font-awesome.css" />
+    <script src="./layouts/slider/js/jquery-3.1.0.min.js"></script>
+    <script src="./layouts/slider/js/jquery.flexslider.js"></script>
+    <script src="./layouts/slider/js/main.js"></script>
+
+    <!--====================<iframe class="iframe-slider" src="./layouts/Slider Responsive 2017/index.html" frameborder="0"></iframe>====================-->
+
+    <!--====================Slider-Auto====================-->
+
+    <!--==================== FEATURED ====================-->
+    <section class="featured section container" id="featured ">
+      <h2 class="section__title">Lo Cursos Mas vistos</h2>
+
+      <div class="featured__container grid">
+        <article class="featured__card">
+          <span class="featured__tag">Favoritos</span>
+
+          <img src="./assets/img/img/php.jpg " alt=" " class="featured__img" />
+
+          <div class="featured__data">
+            <h3 class="featured__title">Curso de PHP</h3>
+            <span class="featured__price">Clasificacion: Programación</span>
+          </div>
+          <form method="get " action="./videoplayer.html ">
+            <button class="button featured__button">
+              <a href="./videoplayer.html "></a> Ver ahora
+            </button>
+          </form>
+        </article>
+
+        <article class="featured__card">
+          <span class="featured__tag">Favoritos</span>
+
+          <img src="./assets/img/img/kotlin.png " alt=" " class="featured__img" />
+
+          <div class="featured__data">
+            <h3 class="featured__title">Curso de Kotlin</h3>
+            <span class="featured__price">Clasificacion: Programación</span>
+          </div>
+
+          <form method="get " action="./videm.html">
+            <button class="button featured__button">
+              <a href="./videm.php "></a> Ver ahora
+            </button>
+          </form>
+        </article>
+
+        <article class="featured__card">
+          <span class="featured__tag">Favoritos</span>
+
+          <img src="./assets/img/img/css.avif" alt=" " class="featured__img" />
+
+          <div class="featured__data">
+            <h3 class="featured__title">Curso de CSS</h3>
+            <span class="featured__price">Clasificacion: Programación</span>
+          </div>
+
+          <button class="button featured__button">Ver ahora</button>
+        </article>
+
+
+        <article class="featured__card">
+          <span class="featured__tag">Favoritos</span>
+
+          <img src="./assets/img/img/html2.jpg" alt=" " class="featured__img" />
+
+          <div class="featured__data">
+            <h3 class="featured__title">Curso de HTML</h3>
+            <span class="featured__price">Clasificacion: Programación</span>
+          </div>
+
+          <button class="button featured__button">Ver ahora</button>
+        </article>
+      </div>
+    </section>
+
+
+    <!--==================== NEW ====================-->
+    <section class="new section container" id="new ">
+      <h2 class="section__title">
+        Episodios Nuevos <br />
+        <h4 class="section__title">
+          Si estas navegando desde un dispositvo movil desplaza hacia la
+          derecha para dosfrutar de esta seccion
+        </h4>
+      </h2>
+
+      <div class="new__container">
+        <div class="swiper new-swiper">
+          <div class="swiper-wrapper">
+            <article class="new__card swiper-slide">
+              <span class="new__tag">New</span>
+
+              <img src="./assets/img/img/adobe.png " alt=" " class="new__img" />
+
+              <div class="new__data">
+                <h3 class="new__title">Kaguya-sama Love is war</h3>
+                <span class="new__price">Temporada 1</span>
+              </div>
+
+              <button class="button new__button">Ver ahora</button>
+            </article>
+
+            <article class="new__card swiper-slide">
+              <span class="new__tag">New</span>
+
+              <img src="./assets/img/products/koitouso.jpg " alt=" " class="new__img" />
+
+              <div class="new__data">
+                <h3 class="new__title">Koi To Uso</h3>
+                <span class="new__price">Temporada 1</span>
+              </div>
+
+              <button class="button new__button">Ver ahora</button>
+            </article>
+
+            <article class="new__card swiper-slide">
+              <span class="new__tag">New</span>
+
+              <img src="./assets/img/products/tensei.webp " alt=" " class="new__img" />
+
+              <div class="new__data">
+                <h3 class="new__title">Tensei Shitara Datta Ken</h3>
+                <span class="new__price">Temporada 2-3</span>
+              </div>
+
+              <button class="button new__button">Ver ahora</button>
+            </article>
+
+            <article class="new__card swiper-slide">
+              <span class="new__tag">New</span>
+
+              <img src="./assets/img/products/kuzo.jpg " alt=" " class="new__img" />
+
+              <div class="new__data">
+                <h3 class="new__title">Kuzo no Honkai</h3>
+                <span class="new__price">Temporada 1</span>
+              </div>
+
+              <button class="button new__button">Ver ahora</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CTN-SLIDER-PRUB ====================-->
+
+    <link rel="stylesheet" href="./assets/css/iframe-carrusel.css" />
+    <link rel="stylesheet" href="./assets/css/carrusel.css" />
+
+    <!--====================  <iframe class="iframe-carrusel" src="./layouts/Carrusel-de-Subcategor-a-master/index.html" frameborder="0"></iframe> ====================-->
+
+    <div class="Carousel">
+      <h2>Subcategory </h2>
+      <div class="slick-list" id="slick-list">
+        <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+          onclick="app.processingButton(event)">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+            class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512">
+            <path fill="currentColor"
+              d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+            </path>
+          </svg>
+        </button>
+        <div class="slick-track" id="track">
+          <div class="slick">
+            <div>
+              <a href="./layouts/Animes/k-on.html">
+                <h4><small>K-ON!</small> Ver Ahora</h4>
+                <picture>
+                  <img src="./assets/img/products/k-on-1.webp" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/2.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/3.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/4.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/5.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/6.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/7.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/8.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/9.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/10.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/11.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/12.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/13.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/14.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/15.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+          onclick="app.processingButton(event)">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+            class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512">
+            <path fill="currentColor"
+              d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <div class="slick-list" id="slick-list">
+        <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+          onclick="app.processingButton(event)">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+            class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512">
+            <path fill="currentColor"
+              d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+            </path>
+          </svg>
+        </button>
+        <div class="slick-track" id="track">
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/1.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/2.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/3.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/4.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/5.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/6.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/7.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/8.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/9.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/10.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/11.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/12.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/13.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/14.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="slick">
+            <div>
+              <a href="/">
+                <h4><small>Share Your Message</small>Watch</h4>
+                <picture>
+                  <img src="./images/15.jpg" alt="Image" />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+          onclick="app.processingButton(event)">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+            class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512">
+            <path fill="currentColor"
+              d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+            </path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!--======== este script es parte de los botones del carrusel de las imagenes===========-->
+    <script>
+      function App() { }
+
+      window.onload = function (event) {
+        var app = new App();
+        window.app = app;
+      };
+
+      App.prototype.processingButton = function (event) {
+        const btn = event.currentTarget;
+        const slickList = event.currentTarget.parentNode;
+        const track = event.currentTarget.parentNode.querySelector("#track");
+        const slick = track.querySelectorAll(".slick");
+
+        const slickWidth = slick[0].offsetWidth;
+
+        const trackWidth = track.offsetWidth;
+        const listWidth = slickList.offsetWidth;
+
+        track.style.left == ""
+          ? (leftPosition = track.style.left = 0)
+          : (leftPosition = parseFloat(track.style.left.slice(0, -2) * -1));
+
+        btn.dataset.button == "button-prev"
+          ? prevAction(leftPosition, slickWidth, track)
+          : nextAction(
+            leftPosition,
+            trackWidth,
+            listWidth,
+            slickWidth,
+            track
+          );
+      };
+
+      let prevAction = (leftPosition, slickWidth, track) => {
+        if (leftPosition > 0) {
+          console.log("entro 2");
+          track.style.left = `${-1 * (leftPosition - slickWidth)}px`;
+        }
+      };
+
+      let nextAction = (
+        leftPosition,
+        trackWidth,
+        listWidth,
+        slickWidth,
+        track
+      ) => {
+        if (leftPosition < trackWidth - listWidth) {
+          track.style.left = `${-1 * (leftPosition + slickWidth)}px`;
+        }
+      };
+    </script>
+
+    <!--==================== NEWSLETTER ====================-->
+    <section class="newsletter section container">
+      <div class="newsletter__bg grid">
+        <div>
+          <h2 class="newsletter__title">
+            ¿Quieres recibir<br />las ultimas Novedades?
+          </h2>
+          <p class="newsletter__description">
+            No te pierdas la caildad de nuestro servicio. Suscríbase a nuestro
+            boletín de correo electrónico para obtener las mejores avisos de
+            los animes de la siguiente Temporada y para ver cuales estan
+            disponibles
+          </p>
+        </div>
+
+        <form action="mailto:outlex29@gmail.com " class="newsletter__subscribe">
+          <input type="email " placeholder="Enter your email " class="newsletter__input" />
+          <button class="button">SUBSCRIBE</button>
+        </form>
+      </div>
+    </section>
+    <!--==================== NEWSLETTER-END ====================-->
+
+    <div class="contenedor-span">
+      <div class="contenedor-de-let">
+        <span class="spant" style="--l: '¡ST'">¡ST</span>
+        <span class="spant" style="--l: 'UD'">UD</span>
+        <span class="spant" style="--l: 'Y'">Y</span>
+        <span class="spant" style="--l: 'H'">H</span>
+        <span class="spant" style="--l: 'UB!'">UB!</span>
+      </div>
+    </div>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <h3 class="footer__title">Our information</h3>
+
+        <ul class="footer__list">
+          <li>+505 xxxx-xxxx</li>
+          <li>Managua, Nicaragua</li>
+          <li>123-456-789</li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">About Us</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="# " class="footer__link">Support Center</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Customer Support</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">About Us</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Copy Right</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Product</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="# " class="footer__link">Póster</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Almohadas</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">FIgures</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Accesories</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Social</h3>
+
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-facebook"></i>
+          </a>
+
+          <a href="https://twitter.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+
+          <a href="https://www.instagram.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <span class="footer__copy">&#169; StudyHub. All rigths reserved</span>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="# " class="scrollup" id="scroll-up ">
+    <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+  </a>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="./assets/js/swiper-bundle.min.js "></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="./assets/js/main.js "></script>
+
+  <script src="./assets/js/scroll/index-1.js"></script>
+</body>
+
+</html>

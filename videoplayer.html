@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+  <meta property="og:url" content="https://www.Caklo.com/" />
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:title" content="CaKlo" />
+
+  <meta property="og:description" content="Disfruta de ver anime Online sin publicidad" />
+  <!--=============== Scorllreveal ===============-->
+  <script src="/assets/js/scroll/scrollreveal.js"></script>
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="./assets/img/ghost-regular-24.png" type="image/x-icon" />
+
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!--=============== CSS slider ===============-->
+  <link rel="stylesheet" href="./assets/css/slider.css" />
+
+  <link rel="stylesheet" href="./assets/css/span-container.css" />
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== Lbs-js ===============-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+    integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"
+    integrity="sha512-HNbo1d4BaJjXh+/e6q4enTyezg5wiXvY3p/9Vzb20NIvkJghZxhzaXeffbdJuuZSxFhJP87ORPadwmU9aN3wSA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
+    integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="text-javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.map" />
+  <!--=============== Lbs-js ===============-->
+
+  <!--=============== s3arch ===============-->
+  <link rel="stylesheet" href="./assets/css/search-new-css.css" />
+  <script src="./assets/js/search/jquery.js"></script>
+  <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+  <!--=============== s3arch ===============-->
+  <title>Studyhub</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="./index.html" class="nav__logo">
+        <i class="bx bxs-ghost"></i> Studyhub
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index-1.html" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./tendencia.html" class="nav__link">Tendencia</a>
+          </li>
+          <li class="nav__item">
+            <a href="./gallery.html" class="nav__link">Gallery</a>
+          </li>
+          <li class="nav__item">
+            <a href="#new" class="nav__link">New</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__shop" id="cart-shop">
+          <i class="bx bx-search-alt"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="cart" id="cart">
+    <i class="bx bx-x cart__close" id="cart-close"></i>
+
+    <h2 class="cart__title-center">Buscar</h2>
+
+
+    <!--=============== Buscador list css ===============-->
+
+    <link rel="stylesheet" href="./assets/css/search-new-css.css" />
+    <script src="./assets/js/search/jquery.js"></script>
+    <script src="./assets/js/search/jquery.dataTables.min.js"></script>
+
+    <section class="btn-buscar" id="icon-menu">
+      <form autocomplete="off">
+        <div>
+          <input type="text" name="q" id="input-search" placeholder="¿Qué deseas buscar?" />
+        </div>
+        <ul class="list"></ul>
+      </form>
+    </section>
+
+    <div class="content-search">
+      <div class="content-table">
+        <table id="table">
+          <thead>
+            <tr>
+              <td></td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><a href="./videoplayer.html">CSS</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="#">HTML</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="#">JavaScript</a></td>
+            </tr>
+
+            <tr>
+              <td><a href="./layouts/Animes/k-on.html">PHP Nivel 2</a></td>
+            </tr>
+
+            <tr>
+              <td>
+                <a href="/layouts/Animes/tokyo-renvengers.html">Java</a>
+              </td>
+            </tr>
+
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./assets/js/search/search-new.js"></script>
+    <!--=============== Buscador list css ===============-->
+
+  </div>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+
+
+
+  </div>
+
+        <!--==================== ctn-Video start ====================-->
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./playlist/style.css">
+        <link rel="stylesheet" href="./assets/css/section-details.css">
+        <div class="section home__container siso">
+          <div class="prubs">
+
+              <section class="seccion">
+                  <h2 class="titlesa"></h2>
+                  <div class="containeres">
+                      <div id="video_player">
+                          <iframe controls id="main-Video" src=" " width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                      <div class="playlistBx">
+                          <div class="headers">
+                              <div class="row">
+                                  <span class="AllLessons"></span>
+                              </div>
+                          </div>
+                          <ul class="playlist" id="playlist">
+                          </ul>
+                      </div>
+                  </div>
+              </section>
+              <script src="./playlist/video-list.js"></script>
+              <script src="./playlist/script.js"></script>
+
+          </div>
+         
+        
+
+      </div>
+ <div class="section comment-section">
+            <h1>Comentarios</h1>
+            <form id="commentForm" class="comment-form">
+                <textarea id="commentInput" placeholder="Escribe un comentario..." required></textarea>
+                <button type="submit">Publicar</button>
+            </form>
+            <div id="commentList" class="comment-list">
+                <!-- Comentarios dinámicos se insertarán aquí -->
+            </div>
+        </div>
+<br>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+    const commentForm = document.getElementById("commentForm");
+    const commentInput = document.getElementById("commentInput");
+    const commentList = document.getElementById("commentList");
+
+    commentForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const commentText = commentInput.value.trim();
+        if (commentText) {
+            addComment(commentText);
+            commentInput.value = "";
+        }
+    });
+
+    function addComment(text) {
+        const comment = document.createElement("div");
+        comment.className = "comment";
+
+        comment.innerHTML = `
+            <div class="comment-header">
+                <span>Usuario</span>
+                <span>${new Date().toLocaleString()}</span>
+            </div>
+            <div class="comment-text">${text}</div>
+            <div class="comment-actions">
+                <div class="action like-action" data-type="like">
+                    👍 <span>0</span>
+                </div>
+                <div class="action dislike-action" data-type="dislike">
+                    👎 <span>0</span>
+                </div>
+            </div>
+        `;
+
+        const likeAction = comment.querySelector(".like-action");
+        const dislikeAction = comment.querySelector(".dislike-action");
+
+        likeAction.addEventListener("click", () => updateCount(likeAction));
+        dislikeAction.addEventListener("click", () => updateCount(dislikeAction));
+
+        commentList.appendChild(comment);
+    }
+
+    function updateCount(action) {
+        const countSpan = action.querySelector("span");
+        let count = parseInt(countSpan.textContent, 10);
+        countSpan.textContent = ++count;
+    }
+});
+
+        </script>
+
+        <style>
+
+.comment-section {
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: var(--first-color);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    row-gap: 2.5rem;
+    margin: auto;
+}
+
+.comment-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.comment-form textarea {
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.comment-form button {
+    align-self: flex-end;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.comment-form button:hover {
+    background-color: #45a049;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.comment-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.action:hover {
+    color: #333;
+}
+
+.action span {
+    font-weight: bold;
+}
+        </style>
+      <!--==================== ctn-Video end ====================-->
+
+
+    <!--==================== NEWSLETTER ====================-->
+    <section class="newsletter section container">
+      <div class="newsletter__bg grid">
+        <div>
+          <h2 class="newsletter__title">
+            ¿Quieres recibir<br />las ultimas Novedades?
+          </h2>
+          <p class="newsletter__description">
+            No te pierdas la caildad de nuestro servicio. Suscríbase a nuestro
+            boletín de correo electrónico para obtener las mejores avisos de
+            los animes de la siguiente Temporada y para ver cuales estan
+            disponibles
+          </p>
+        </div>
+
+        <form action="mailto:outlex29@gmail.com " class="newsletter__subscribe">
+          <input type="email " placeholder="Enter your email " class="newsletter__input" />
+          <button class="button">SUBSCRIBE</button>
+        </form>
+      </div>
+    </section>
+    <!--==================== NEWSLETTER-END ====================-->
+
+    <div class="contenedor-span">
+      <div class="contenedor-de-let">
+        <span class="spant" style="--l: '¡ST'">¡ST</span>
+        <span class="spant" style="--l: 'UD'">UD</span>
+        <span class="spant" style="--l: 'Y'">Y</span>
+        <span class="spant" style="--l: 'H'">H</span>
+        <span class="spant" style="--l: 'UB!'">UB!</span>
+      </div>
+    </div>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <h3 class="footer__title">Our information</h3>
+
+        <ul class="footer__list">
+          <li>+505 xxxx-xxxx</li>
+          <li>Managua, Nicaragua</li>
+          <li>123-456-789</li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">About Us</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="# " class="footer__link">Support Center</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Customer Support</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">About Us</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Copy Right</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Product</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="# " class="footer__link">Póster</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Almohadas</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">FIgures</a>
+          </li>
+          <li>
+            <a href="# " class="footer__link">Accesories</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Social</h3>
+
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-facebook"></i>
+          </a>
+
+          <a href="https://twitter.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+
+          <a href="https://www.instagram.com/ " target="_blank " class="footer__social-link">
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <span class="footer__copy">&#169; StudyHub. All rigths reserved</span>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="# " class="scrollup" id="scroll-up ">
+    <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+  </a>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="./assets/js/swiper-bundle.min.js "></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="./assets/js/main.js "></script>
+
+  <script src="./assets/js/scroll/index-1.js"></script>
+</body>
+
+</html>
