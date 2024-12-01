@@ -1,0 +1,59 @@
+        <div class="jk-new">
+
+            <div class="videospruebas">
+
+                <div class="contenedor-slider-auto">
+                    <div class="slider-contenedor">
+                        <section class="contenido-slider">
+                            <div>
+                                <h2 class="h2">La historia sigue a Saya Kisaragi como alumna de segundo curso del Instituto Privado Sanabara, donde lleva una vida normal y difruta de su diario vivir.Sin embargo, su padre le encomienda la misión como heredera del templo
+                                    Ukishima de acabar.....</h2>
+                                <a href="./videm.html">Ver Ahora</a>
+                            </div>
+                            <img class="svgs" src="./assets/img/bloodc.jpg" alt="">
+
+                        </section>
+
+
+                        <section class="contenido-slider">
+                            <div>
+                                <h2 class="h2">La historia sigue a Saya Kisaragi como alumna de segundo curso del Instituto Privado Sanabara, donde lleva una vida normal y difruta de su diario vivir.Sin embargo, su padre le encomienda la misión como heredera del templo
+                                    Ukishima de acabar.....</h2>
+                                <a href="./videm.html">Ver Ahora</a>
+                            </div>
+                            <img class="svgs" src="./assets/img/bloodc.jpg" alt="">
+
+
+
+                        </section>
+                        <section class="contenido-slider">
+                            <div>
+                                <h2 class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem sed. Quos cupiditate id delectus est.</h2>
+                                <a href="#">Contact us</a>
+                            </div>
+                            <img class="svgs" src="./assets/animacion-svg/animacion2.svg" alt="">
+
+                        </section>
+                        <section class="contenido-slider">
+                            <div>
+                                <h2 class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem sed. Quos cupiditate id delectus est.</h2>
+                                <a href="#">Contact us</a>
+                            </div>
+                            <img class="svgs" src="./assets/animacion-svg/animacion3.svg" alt="">
+
+                        </section>
+                        <section class="contenido-slider">
+                            <div>
+                                <h2 class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem sed. Quos cupiditate id delectus est.</h2>
+                                <a href="#">Contact us</a>
+                            </div>
+                            <img class="svgs" src="./assets/animacion-svg/animacion.svg" alt="">
+
+                        </section>
+                    </div>
+                </div>
+                <script src="./assets/js/slider-auto-svg.js"></script>
+
+            </div>
+
+        </div>
